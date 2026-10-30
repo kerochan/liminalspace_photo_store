@@ -1,0 +1,2 @@
+# liminalspace_photo_store
+リミナルスペースな写真を保管するリポジトリ。
