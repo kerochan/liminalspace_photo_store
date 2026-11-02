@@ -8,24 +8,31 @@
 </head>
 <body>
 	<header>
-		<h1>リミナルスペース画像置き場</h1>
+		<h1 class="title">リミナルスペース画像置き場</h1>
+		<hr>
 	</header>
 
 	<main>
 		<p>当ページでの画像一覧です。</p>
-		<h2>ライセンスについて</h2>
-		<p>当ページの画像は全てCC BY 4.0でライセンスされています。</p>
-		<p>以下の画像を利用する際は、<b>必ず<a href="README.md">こちら</a>のページをご確認ください。</b></p>
-        <h2>画像一覧</h2>
-		<table>
-			<tbody id="photo-list"></tbody>
-		</table>
+		<div class="license-block">
+			<h2>ライセンスについて</h2>
+			<p>当ページの画像は全てCC BY 4.0でライセンスされています。</p>
+			<p>以下の画像を利用する際は、<b>必ず<a href="README.md">こちら</a>のページをご確認ください。</b></p>
+		</div>
+
+		<div class ="photo-list-container">
+			<h2>画像一覧</h2>
+			<table class="photos">
+				<tbody id="photo-list"></tbody>
+			</table>
+		</div>
 		<script src="js/photo_name_def.js"></script>
 		<script src="js/load_photos.js"></script>
 
 	</main>
 
 	<footer>
+		<hr>
 		<small>&copy; kerochan 2026</small>
 	</footer>
 </body>
